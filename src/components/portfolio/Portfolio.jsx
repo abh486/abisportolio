@@ -7,7 +7,7 @@ const items = [
     id: 1,
     title: "CRM Web",
     img: "./crm.jpg",
-    desc: "The Customer Relationship Management (CRM) project is a fully dynamic web application designed to manage and streamline interactions with customers, leads, and prospects. It includes modules for customer data management, lead tracking, communication history, sales pipeline management, and analytics. The project is dynamic, meaning all data is managed through a backend system and presented in real-time, allowing users to add, update, and delete records without manual page reloads. It enhances business productivity, improves customer service, and supports data-driven decision-making.• Fully dynamic Ul with real-time data interaction.• Built using modern tech stack: React, TypeScript, and Bootstrap.• Includes visually appealing loaders for smooth user experience",
+    desc: "The Customer Relationship Management (CRM) project is a fully dynamic web application designed to manage and streamline interactions with customers, leads, and prospects. It includes modules for customer data management, lead tracking, communication history, sales pipeline management, and analytics. The project is dynamic, meaning all data is managed through a backend system and presented in real-time. It enhances business productivity, • Fully dynamic Ul  Built using modern tech stack: React, TypeScript, and •",
     demoLink:"https://demo.scaleup-business-builder.xyz",
     githubLink: "https://github.com/lucidcraft-in/crm-web.git"
     
