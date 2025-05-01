@@ -60,32 +60,24 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>ui disign</h2>
+          <h2>skills</h2>
           <p>
           .figma <br />
           .tailwind <br />
           .bootstrap <br />
           .framer-motion animaton <br />
           .Aos animation
-                    </p>
-          <button>Go</button>
-        </motion.div>
-    
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>web developing</h2>
-          <p>
-           .React <br />
+          .React <br />
            .React-Native <br />
            .JavaSript <br />
            .Node js <br />
            .Express ja <br />
            .MongoDB
-          </p>
+                    </p>
           <button>Go</button>
         </motion.div>
+    
+       
       </motion.div>
     </motion.div>
   );
