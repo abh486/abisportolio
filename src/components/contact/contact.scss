@@ -44,25 +44,25 @@
   .formContainer {
     flex: 1;
     position: relative;
-    
+  
     @include mobile {
-      padding: 50px;
+      padding: 20px; // Reduced from 50px
       width: 100%;
+      margin-top: -20px; // Pulls it upward
     }
-
-
+  
     .phoneSvg {
       stroke: orange;
       position: absolute;
       margin: auto;
       z-index: -1;
     }
-
+  
     form {
       display: flex;
       flex-direction: column;
       gap: 20px;
-
+  
       input,
       textarea {
         padding: 20px;
@@ -70,22 +70,23 @@
         border: 1px solid white;
         color: white;
         border-radius: 5px;
-
+  
         @include mobile {
           padding: 10px;
         }
       }
-
+  
       button {
         padding: 20px;
         border: none;
         background-color: orange;
         cursor: pointer;
         font-weight: 500;
+  
         @include mobile {
-          padding: 10px;
+          padding: 10px 15px; // Adjusted for better usability
         }
       }
     }
   }
-}
+}  
