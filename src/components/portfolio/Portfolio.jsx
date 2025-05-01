@@ -8,23 +8,22 @@ const items = [
     title: "CRM Web",
     img: "./crm.jpg",
     desc: "The Customer Relationship Management (CRM) project is a fully dynamic web application  designed to manage and streamline interactions with customers. It includes modules for customer data management The project is dynamic  in real-time. It enhances business productivity, • Fully dynamic Ul  Built using modern tech stack: React, TypeScript",
-    demoLink:"https://demo.scaleup-business-builder.xyz",
-    githubLink: "https://github.com/lucidcraft-in/crm-web.git"
-    
+    demoLink: "https://demo.scaleup-business-builder.xyz",
+    githubLink: "https://github.com/lucidcraft-in/crm-web.git",
   },
   {
     id: 2,
     title: "shopsy",
     img: "./shopzy.jpg",
     desc: "Built a fully responsive e-commerce website using React,  Tailwind CSS, and AOS animations, featuring a mobile-friendly design   and optimized component architecture for seamless user experience• Implemented   optimized component structures for scalability and maintainability.",
-    demoLink:"https://shoppingkartt.netlify.app/"
+    demoLink: "https://shoppingkartt.netlify.app/",
   },
   {
     id: 3,
     title: "Todo-App",
     img: "./todo.jpg",
     desc: "Built with React Native (Expo) and Firebase for user authentication.Developed a To-Do Management application that enables users to register with email and password, log in with their credentials, and securely manage tasks. Key features include the ability to add, update, and delete tasks, as well as mark tasks as completed.",
-    githubLink:"https://github.com/abh486/todoapp.git"
+    githubLink: "https://github.com/abh486/todoapp.git",
   },
   {
     id: 4,
@@ -44,16 +43,19 @@ const Single = ({ item }) => {
   const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
 
   return (
-    <section >
+    <section>
       <div className="container">
         <div className="wrapper">
           <div className="imageContainer" ref={ref}>
             <img src={item.img} alt="" />
           </div>
-          <motion.div className="textContainer" style={{y}}>
+          <motion.div className="textContainer" style={{ y }}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <button>See Demo</button>
+
+            <a href={item.demoLink} target="_blank" rel="noopener noreferrer">
+              <button>See Demo</button>
+            </a>
           </motion.div>
         </div>
       </div>
