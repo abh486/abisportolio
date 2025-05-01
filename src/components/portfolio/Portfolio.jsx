@@ -7,7 +7,7 @@ const items = [
     id: 1,
     title: "CRM Web",
     img: "./crm.jpg",
-    desc: "The Customer Relationship Management (CRM) project is a fully dynamic web application designed to manage and streamline interactions with customers, leads, and prospects. It includes modules for customer data management, lead tracking, communication history, sales pipeline management, and analytics. The project is dynamic, meaning all data is managed through a backend system and presented in real-time. It enhances business productivity, • Fully dynamic Ul  Built using modern tech stack: React, TypeScript, and •",
+    desc: "The Customer Relationship Management (CRM) project is a fully dynamic web application  designed to manage and streamline interactions with customers. It includes modules for customer data management The project is dynamic  in real-time. It enhances business productivity, • Fully dynamic Ul  Built using modern tech stack: React, TypeScript",
     demoLink:"https://demo.scaleup-business-builder.xyz",
     githubLink: "https://github.com/lucidcraft-in/crm-web.git"
     
@@ -16,7 +16,7 @@ const items = [
     id: 2,
     title: "shopsy",
     img: "./shopzy.jpg",
-    desc: "Built a fully responsive e-commerce website using React, Tailwind CSS, and AOS animations, featuring a mobile-friendly design and optimized component architecture for seamless user experience• Developed a fully responsive e-commerce website clone using React for the front end and Tailwind CSS for styling.• Integrated AOS (Animate On Scroll) for smooth animations to enhance user experience.• Designed a pixel-perfect, mobile-friendly Ul to ensure cross-device compatibility.• Implemented optimized component structures for scalability and maintainability.",
+    desc: "Built a fully responsive e-commerce website using React,  Tailwind CSS, and AOS animations, featuring a mobile-friendly design   and optimized component architecture for seamless user experience• Implemented   optimized component structures for scalability and maintainability.",
     demoLink:"https://shoppingkartt.netlify.app/"
   },
   {
