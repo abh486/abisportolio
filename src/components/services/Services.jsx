@@ -45,12 +45,12 @@ const Services = () => {
         <div className="title">
           <img src="/people.webp" alt="" />
           <h1>
-            <motion.b whileHover={{color:"orange"}}></motion.b>
+            <motion.b whileHover={{ color: "orange" }}></motion.b>
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{color:"orange"}}></motion.b>
+            <motion.b whileHover={{ color: "orange" }}></motion.b>
           </h1>
           <button>WHAT WE DO?</button>
         </div>
@@ -60,24 +60,24 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>skills</h2>
-          <p>
-          .figma <br />
-          .tailwind <br />
-          .bootstrap <br />
-          .framer-motion animaton <br />
-          .Aos animation
-          .React <br />
-           .React-Native <br />
-           .JavaSript <br />
-           .Node js <br />
-           .Express ja <br />
-           .MongoDB
-                    </p>
+        
+            <h2>Skills</h2>
+            <ul>
+              <li>Figma</li>
+              <li>Tailwind</li>
+              <li>Bootstrap</li>
+              <li>Framer Motion (Animation)</li>
+              <li>AOS Animation</li>
+              <li>React</li>
+              <li>React Native</li>
+              <li>JavaScript</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>MongoDB</li>
+            </ul>
+        
           <button>Go</button>
         </motion.div>
-    
-       
       </motion.div>
     </motion.div>
   );
